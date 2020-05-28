@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  background-color: #fff;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+
+      img {
+        width: 285px;
+        height: 60px;
+      }
+    }
+
+    .nav {
+      ul {
+
+        li {
+          display: inline-block;
+
+          &:not(:last-child) {
+            margin-right: 10px;
+          }
+
+          a {
+            padding: 10px;
+            color: #60646d;
+
+            &:hover {
+              background-color: #ef5c5e;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

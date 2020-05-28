@@ -1,0 +1,42 @@
+.activities {
+  margin-top: -64px;
+  padding-top: 64px;
+
+  .activities-first {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .activities-second {
+    figure {
+      margin-top: 20px;
+      display: flex;
+      figcaption {
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          text-align: center;
+          max-width: 400px;
+          margin-bottom: 50px;
+        }
+
+        span {
+          margin-top: 15px;
+        }
+
+        a {
+          margin-top: 20px;
+          font-weight: 700;
+          color: darkred;
+          border-bottom: 1px solid darkred;
+        }
+
+      }
+    }
+  }
+
+
+}

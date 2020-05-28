@@ -1,0 +1,38 @@
+.e-school {
+  margin-top: -64px;
+  padding-top: 64px;
+
+  .block-title {
+    margin-top: 50px;
+  }
+
+  &__content {
+    margin-top: 20px;
+
+    .e-school__item {
+      margin-top: 20px;
+
+      .item__title {
+
+      }
+
+      figure {
+        margin-top: 15px;
+        border: 1px solid #000;
+        display: flex;
+
+        img {
+          margin: 15px;
+          width: 100px;
+          height: auto;
+        }
+        figcaption {
+          border-left: 1px solid #000;
+          padding-left: 20px;
+
+
+        }
+      }
+    }
+  }
+}

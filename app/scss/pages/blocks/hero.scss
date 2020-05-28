@@ -1,0 +1,17 @@
+.hero {
+  background: url("../images/hero.jpg") no-repeat center/cover;
+  height: 640px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    padding: 50px;
+    background-color: rgba(#000, 0.2);
+    text-align: center;
+    color: #fff;
+
+  }
+
+}
